@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --color-pink-01: #EB00A8;
+    --color-white-01: #FFFFFF;
+    --color-blue-01: #00FFF0;
+    --color-blue-02: #4185DD;
+    --color-purple-01: #8000FF;
+
+    --font-family-01: 'Dancing Script', cursive;
+    --font-family-02: 'Quicksand', sans-serif;
+
+    --font-size-01: 4rem;
+    --font-size-02: 1.5rem;
+    --font-size-03: 3.8rem;
+    --font-size-04: 1.7rem;
+    --font-size-05: 2.2rem;
+    --font-size-06: 1.4rem;
+    --font-size-07: 2rem;
+
+    --border-radius-01: 30px;
+}
+
+.container {
+    width: 61rem;
+    max-width: 100%;
+    margin: 0 auto;
+    /* padding: 4rem 4rem; */
+}

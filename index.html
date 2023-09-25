@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Alta Lexxo Tech
+    </title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <section class="presentation">
+        <div class="presentation_rocket">
+            <header class="presentation_header container">
+                <h1 class="presentation_header_logo">
+                    Alta Lexxo
+                </h1>
+                <div class="presentation_header_menu-hamburguer">
+                    <img src="./assets/menu-hamburguer.svg" id="menu-hamburguer">
+                    <div class="presentation_header_menu-hamburguer_open">
+                        <ul>
+                            <li>
+                                <a href="#section_about-us">
+                                    About us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#section_contact">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="presentation_header_menu-mobile">
+                    <ul>
+                        <li>
+                            <a href="#section_about-us">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#section_contact">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <main class="presentation_main container">
+                <h2>
+                    IA Projects
+                </h2>
+                <p>
+                    We are a team specialized in virtual reality and
+                    positioning your brand in the market.
+                    Contact us and make your budget.
+                </p>
+                <button type="button">
+                    <a href="#section_contact">
+                        Contact
+                    </a>
+                </button>
+            </main>
+        </div>
+    </section>
+    <section class="about-us" id="section_about-us">
+        <div class="about-us_container">
+            <h2>
+                Who are we?
+            </h2>
+            <p>
+                We are a company that facilitates the transformation of dreams into reality.
+                What you want to manifest materially is reproduced through virtual reality.
+                We create realities.
+            </p>
+        </div>
+    </section>
+    <section class="contact" id="section_contact">
+        <form>
+            <fieldset>
+                <legend>
+                    Contact
+                </legend>
+                <label for="name">
+                    Name
+                </label>
+                <div class="contact_input_container">
+                    <input type="text" name="name" id="name" class="contact_input">
+                    <ion-icon name="person-outline"></ion-icon>
+                </div>
+                <label for="email">
+                    Email
+                </label>
+                <div class="contact_input_container">
+                    <input type="email" name="email" id="email" class="contact_input">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </div>
+                <label for="description">
+                    What do you need?
+                </label>
+                <textarea name="description" id="description">
+                    </textarea>
+                <button type="submit" class="contact_send-button">
+                    Send
+                </button>
+            </fieldset>
+        </form>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
